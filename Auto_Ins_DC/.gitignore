@@ -1,0 +1,91 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# =========================
+# macOS / system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Raw data files
+# Avoid uploading large raw data or source-restricted files
+# =========================
+Data/
+data/raw/
+data/interim/
+
+*.csv
+*.xlsx
+*.xls
+*.geojson
+*.json
+*.zip
+*.gz
+
+# Shapefile components
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qpj
+
+# =========================
+# Large generated outputs
+# =========================
+outputs/**/*.html
+outputs/**/*.geojson
+outputs/**/*.csv
+outputs/**/*.xlsx
+outputs/**/*.zip
+
+# Keep output folder documentation and placeholder files
+!outputs/**/.gitkeep
+!outputs/**/README.md
+
+# Optional: allow static portfolio figures
+# Uncomment these if you want GitHub to track exported figures.
+# !outputs/figures/*.png
+# !outputs/figures/*.jpg
+# !outputs/figures/*.jpeg
+# !outputs/figures/*.pdf
+
+# =========================
+# Project reports / presentation exports
+# Keep PPTX/PDF if they are small and useful for portfolio.
+# If files become too large, uncomment the following:
+# =========================
+# Documentation/*.pptx
+# Documentation/*.pdf
